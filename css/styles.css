@@ -433,9 +433,6 @@ h3 {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  position: absolute;
-  translate: 0 110% 0;
-  inset: 0;
   transition: 0.25s;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -452,6 +449,13 @@ h3 {
   row-gap: 48px;
   margin-bottom: 120px;
 }
+.overlay {
+  background: var(--iris, #4d5ae5);
+  position: absolute;
+  translate: 0 110% 0;
+  inset: 0;
+  transition: translate 250ms;
+}
 .overlay-text {
   color: var(--cloud, #f4f4fd);
   font-family: Roboto;
@@ -461,7 +465,7 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.32px;
   padding: 40px 32px 164px;
-
+}
 .main-icon-background {
   display: flex;
   justify-content: center;
