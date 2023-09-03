@@ -182,7 +182,6 @@ body {
     url(../images/people-office-1.jpg);
   text-align: center;
 }
-
 .main-text {
   width: 496px;
   padding-top: 188px;
@@ -313,7 +312,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.sm-team-links {
+.social-team-links {
   margin-top: 8px;
   display: flex;
   justify-content: center;
@@ -321,25 +320,25 @@ p {
   gap: 24px;
 }
 
-.team-sm {
+.team-social {
   background-color: var(--iris);
   border-radius: 50%;
   width: 40px;
   height: 40px;
   flex-shrink: 0;
 }
-.team-sm-item {
+.team-social-item {
   margin: 12px;
   width: 16px;
   height: 16px;
 }
-.team-sm:hover,
-.team-sm:focus {
+.team-social:hover,
+.team-social:focus {
   background-color: var(--ocean, #404bbf);
   transition: color var(--transition), background-color var(--transition),
     box-shadow var(--transition);
 }
-.team-sm:hover {
+.team-social:hover {
   cursor: pointer;
 }
 
