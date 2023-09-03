@@ -179,10 +179,9 @@ body {
       var(--grey, rgba(46, 47, 66, 0.7)),
       var(--grey, rgba(46, 47, 66, 0.7))
     ),
-    url(../images/hero.jpg);
+    url(../images/people-office 1.jpg);
   text-align: center;
 }
-
 .main-text {
   width: 496px;
   padding-top: 188px;
