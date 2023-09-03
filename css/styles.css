@@ -179,9 +179,10 @@ body {
       var(--grey, rgba(46, 47, 66, 0.7)),
       var(--grey, rgba(46, 47, 66, 0.7))
     ),
-    url(../images/people-office 1.jpg);
+    url(../images/people-office-1.jpg);
   text-align: center;
 }
+
 .main-text {
   width: 496px;
   padding-top: 188px;
@@ -350,7 +351,7 @@ p {
   gap: 24px;
 }
 
-.customers-icons {
+.custom-icons {
   fill: #8e8f99;
   width: 168px;
   height: 88px;
