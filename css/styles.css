@@ -355,7 +355,6 @@ p {
   width: 168px;
   height: 88px;
   flex-shrink: 0;
-  padding: 16px 32px;
   border-radius: 4px;
   border: 1px solid var(--lightslate, #8e8f99);
 }
